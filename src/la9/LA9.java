@@ -14,8 +14,18 @@ public class LA9 {
     /**
      * @param args the command line arguments
      */
+       static public void featureA()
+    {
+        System.out.println("Feature B added");
+    }
+    static public void featureB()
+    {
+        System.out.println("Feature A added");
+    }
     public static void main(String[] args) {
         // TODO code application logic here
+        featureA();
+        featureB();
     }
     
 }
